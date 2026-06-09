@@ -1,0 +1,167 @@
+body{
+  margin:0;
+}
+
+.description-page{
+  min-height:100vh;
+
+  display:flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  align-items:center;
+
+  background:linear-gradient(
+    135deg,
+    #74b9ff,
+    #0984e3
+  );
+}
+
+.weather-card{
+  width:900px;
+  padding:30px;
+  margin: 15px auto;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(10px);
+
+  color:white;
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.weather-card h1{
+  margin:0;
+  font-size:3rem;
+}
+
+.weather-card h3{
+  margin-top:5px;
+}
+
+.main-weather{
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.main-weather h2{
+  font-size:4rem;
+  margin:0;
+}
+
+.grid{
+  display:grid;
+
+  grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+
+  gap:15px;
+}
+
+.info-box{
+  background:rgba(255,255,255,0.15);
+
+  border-radius:12px;
+
+  padding:15px;
+}
+
+.info-box h4{
+  margin:0;
+  margin-bottom:10px;
+}
+
+.info-box p{
+  margin:0;
+  font-size:1.1rem;
+}
+
+.header{
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav{
+  width:400px;
+  margin-right: 500px;
+  border: 2px solid yellow;
+}
+.geo-card{
+  width:900px;
+  padding:30px;
+  margin-bottom:20px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(10px);
+
+  color:white;
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.geo-description{
+  margin:0;
+
+  font-size:1.1rem;
+  line-height:1.8;
+
+  color:white;
+}
+.weather-emoji{
+  font-size:40px;
+  display: flex;
+  margin-right: 900px;
+  text-align:center;
+}
+
+.forecast-container{
+  width:900px;
+
+  margin-top:20px;
+  padding:30px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(10px);
+
+  color:white;
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.forecast-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:15px;
+}
+
+.forecast-card{
+  background:rgba(255,255,255,0.15);
+
+  border-radius:12px;
+
+  padding:15px;
+
+  text-align:center;
+}
+
+.forecast-card h2{
+  margin:10px 0;
+}
+
+.forecast-card h3{
+  margin:0;
+}
+.forecast-grid a{
+  text-decoration: none;
+  text-decoration-color:inherit;
+  color: aliceblue;
+}

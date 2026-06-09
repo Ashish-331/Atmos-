@@ -1,0 +1,38 @@
+<svg width="520" height="140" viewBox="0 0 520 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Logo Mark -->
+  <g transform="translate(20,10)">
+
+    <!-- Atmosphere Ring -->
+    <ellipse cx="55" cy="55" rx="48" ry="20" transform="rotate(-18 55 55)" stroke="#38BDF8" stroke-width="5" fill="none" opacity="0.9"></ellipse>
+
+    <!-- Stylized A -->
+    <path d="M55 10
+         L90 95
+         H76
+         L67 73
+         H43
+         L34 95
+         H20
+         Z
+
+         M48 60
+         H62
+         L55 42
+         Z" fill="#0F172A"></path>
+
+    <!-- Orbit Highlight -->
+    <circle cx="95" cy="44" r="6" fill="#2563EB"></circle>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="145" y="72" font-family="Inter, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#0F172A">
+    Atmos
+  </text>
+
+  <!-- Tagline -->
+  <text x="148" y="98" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="4" fill="#64748B">
+    WEATHER INTELLIGENCE
+  </text>
+
+</svg>

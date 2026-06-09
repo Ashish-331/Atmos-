@@ -1,0 +1,101 @@
+body{
+  margin:0;
+}
+
+/* Hero Section */
+
+.search{
+  width:100%;
+  height:350px;
+
+  background-image:url("./assets/clouds.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  position:relative;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.search::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.1);
+}
+
+.logo{
+  position:absolute;
+  top:30px;
+  left:60px;
+
+  width:240px;
+  height:80px;
+
+  background-image:url("./assets/logo.svg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:220px;
+
+  z-index:1;
+}
+
+.search-box{
+  display:flex;
+
+  min-height:50px;
+
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+
+  transition:transform 0.3s ease;
+
+  position:relative;
+  z-index:1;
+}
+
+.search-box:hover{
+  transform:scale(1.03);
+}
+
+.search-bar{
+  width:450px;
+
+  border:none;
+  outline:none;
+
+  padding:0 15px;
+
+  font-size:16px;
+}
+
+.search-icon{
+  width:60px;
+
+  border:none;
+  cursor:pointer;
+
+  background-color:white;
+
+  background-image:url("./assets/searchicon.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:20px 20px;
+
+  transition:background-color 0.3s ease;
+}
+
+.search-icon:hover{
+  background-color:#f1f5f9;
+}
+
+.home-body{
+  background-color:transparent;
+}
