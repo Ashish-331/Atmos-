@@ -1,16 +1,67 @@
-# React + Vite
+Atmos 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atmos is a modern weather application built with React and Vite that provides current weather information and forecasts for cities around the world.
 
-Currently, two official plugins are available:
+Features
+Search weather by city name
+Current weather conditions
+Temperature display
+Multi-day forecast
+Responsive design
+Clean and modern UI
+Quick access to popular cities
+Tech Stack
+React
+Vite
+React Router
+CSS
+Weather API
+Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add screenshots of your application here.
 
-## React Compiler
+Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clone the repository:
 
-## Expanding the ESLint configuration
+git clone https://github.com/YOUR_USERNAME/Atmos.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Navigate to the project directory:
+
+cd Atmos
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open your browser and visit:
+
+http://localhost:5173
+Environment Variables
+
+Create a .env file in the root directory and add your API key:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+Project Structure
+src/
+├── assets/
+├── Forecast/
+├── App.jsx
+├── Navbar.jsx
+├── HomeBody.jsx
+├── About.jsx
+└── main.jsx
+Future Improvements
+Hourly forecast
+Weather graphs and analytics
+Location-based weather
+Dark mode
+Favorite cities
+Weather alerts
+Author
+
+Ashish Singh
